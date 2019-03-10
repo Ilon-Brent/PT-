@@ -1,0 +1,40 @@
+@charset "utf-8";
+    @media screen and (max-width:600px) {
+        .navigation {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width:600px) {
+        .logo img {
+            width: 180px;
+            height: 180px;
+        }
+        .navigation_for_mobile {
+            display: none;
+        }
+    }
+
+
+
+    @media screen and (min-width:1000px) {
+        .logo img {
+            width: 220px;
+            height: 220px;
+        }
+        .navigation {
+            padding: 3% 0 0 10%;
+        }
+        .navigation a {
+            font-size: 20px;
+            color: rgb(76, 85, 85);
+            font-weight: 600;
+        }
+        .about_under_headline_image {
+            float: left;
+        }
+        .about_under_headline_image:after {
+            clear: both;
+            display: table;
+        }
+    }
